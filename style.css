@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(143, 134, 134); */
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Estilos Inicio */
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    /* border: 3px solid black; */
+}
+
+.contenedor div {
+    border: 1px solid black;
+    background-color: rgb(143, 134, 134);
+    margin: 6px;
+}
+
+/* Estilos Header y Secciones */
+.listas-index {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.listas-index :hover {
+    background: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.listas-index a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
+
+.contenedor .header {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.contenedor .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    font-family: 'Architects Daughter';
+    color: white;
+    background-color: black;
+}
+
+.datos {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.contenedor #titulo-parrafo {
+    border: none;
+}
+/* Fin esilos header y secciones */
+
+
+/* Estilos mapa */
+.map {
+    padding: 10px;
+}
+
+.mapa h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.mapa .map {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+/* Fin estilos mapa */
+
+
+/* Estilos Footer */
+.contenedor .footer {
+    background-color: black;
+}
+
+.footer .todo {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.footer .boton {
+    display: block;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+/* Fin estilos footer */
+
+
+
+/* Estilos de nueva-york.html */
+.info-ny {
+    font-size: 20px;
+    padding: 20px;
+    height: 900px;
+}
+
+.info-ny h2, .parrafo-ny {
+    margin: 20px;
+}
+
+/* Fin estilos de nueva-york.html */
+
+
+/* Estilos de distritos.html */
+.seccion-principal {
+    font-size: 20px;
+    padding: 10px;
+}
+.parrafo-distrito {
+    margin: 10px;
+}
+
+.manhattan {
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.brooklyn {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.queens {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.bronx {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.staten-island {
+    font-size: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-widht:730px) {
+    .header {
+        width: 100%;
+    }
+
+    .seccion-principal {
+        width: 100%;
+    }
+    .manhattan {
+        width: 100%;
+    }
+    .brooklyn {
+        width: 100%;
+    }
+    .queens {
+        width: 100%;
+    }
+    .bronx {
+        width: 100%;
+    }
+    .staten-island {
+        width: 100%;
+    }
+}
+/* Fin estilos de distritos.html */
+
+
+
+/* Estilos de contacto.html */
+.listas-contacto a {
+    text-decoration: none;
+    color: black;
+}
+
+.listas-contacto {
+    list-style-type: none;
+    margin: 20px;
+}
+
+/* Fin contacto.html */
+
+
+/* Estilos del boton */
+.boton a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+/* Fin estilos del boton */
